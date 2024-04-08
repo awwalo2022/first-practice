@@ -1,0 +1,18 @@
+h1 {
+  color: greenyellow;
+  text-align: center;
+  border: 5px dotted purple;
+}
+p{
+    color: red
+}
+h3{
+    color: blue;
+    border: 3px dotted green;
+    padding: 20px;
+    border-radius:20px
+}   
+img {
+    width: 500px;
+    height: auto;
+}
