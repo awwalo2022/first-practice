@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+    border: 20px inset yellowgreen;
+}
+th {
+    border: 2px dotted blue;
+}
+td{
+   text-align: center;
+   border-radius: 20px;
+   border: 2px dotted rgb(40, 112, 219);
+}
+th{
+    text-align: center;
+    border:2px solid rgb(198, 59, 82)
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+td:nth-child(even){
+    background-color: red;
+}
+tr:nth-child(even){
+    background-color: cadetblue;
+}

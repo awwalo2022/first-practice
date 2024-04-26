@@ -1,0 +1,31 @@
+body {
+    background-color:blue;
+    color: rgb(0, 128, 41);
+}
+
+h1 {
+    color: red
+
+}
+.pella {
+    color: black;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: green;
+}
+
+.rio {
+    color: white;
+    background-color: brown;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#awwal {
+    color:pink;
+    background-color: yellow;
+    font-size: 40px;
+    border-radius: 2px solid white;
+}
+
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <body>
+    <p id="house"></p>
+    <p id="internet"></p>
+    <h2>Iframes - Target for a Link</h2>
+    <iframe
+      src="https://www.dictionary.com/browse/love"
+      name="iframes_a"
+      height="500px"
+      width="100%"
+      title="Iframe Example"
+    ></iframe>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.499981896364!2d3.38850687499238!3d6.4581569935333745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b12f0c45ce7%3A0x4562dab2d7e77daf!2s6FM89FR5%2BC87P%2C%2081%20Arolaya%20St%2C%20STATE%20ISLAND%2C%20Lagos%20102273%2C%20Lagos!5e0!3m2!1sen!2sng!4v1714051652782!5m2!1sen!2sng"
+      width="100%"
+      height="450"
+      style="border: 4px dotted black"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe
+    >"
+
+    <p>
+      <a
+        href="https://www.w3schools.com/html/html_iframe.asp"
+        target="iframes_a"
+        >WSchool.com</a
+      >
+    </p>
+    <p>
+      <a href="" target="iframes_a">instagram.com</a>
+    </p>
+    <div id="house"></div>
+    <script>
+      document.getElementById("house").innerHTML = "Hello java script!";
+      document.getElementById("internet").innerHTML = "Hello world";
+      document.getElementById("house").style.color = "blue";
+      document.getElementById("internet").style.color = "pink";
+      document.getElementById("house").style.height = "500px";
+      document.getElementById("house").style.width = "500px";
+      document.getElementById("house").style.margin = "50px";
+      document.getElementById("house").style.textAlign = "center";
+      document.getElementById("house").style.backgroundColor = "green";
+      document.getElementById("house").innerHTML = "first";
+      document.getElementById("house").style.fontSize = "50px";
+    </script>
+  </body>
+</html>
